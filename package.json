@@ -1,0 +1,21 @@
+{
+	"name": "witspeech",
+	"productName": "Wit speech",
+	"version": "0.0.1",
+	"description": "Constructs a network request for Wit.ai's speech API.",
+	"keywords": [
+		"wit",
+		"wit",
+		"speech",
+		"recognition",
+		"natural",
+		"language",
+		"processing"
+	],
+	"author": "Ron Dekker",
+	"repository": "https://github.com/RedKenrok/node-witspeech",
+	"license": "MIT",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {}
+}
