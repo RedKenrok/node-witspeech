@@ -13,10 +13,10 @@ npm install --save witspeech
 // Import module.
 const WitSpeech = require('witspeech');
 // Create an instance.
-const witSpeech = new WitSpeech('WIT_TOKEN', '20171207');
+const witSpeech = new WitSpeech('KEY_CLIENT', '20171207');
 ```
 
-> Replace WIT_TOKEN with your token retrieved from the [wit.ai](https://wit.ai) website.
+> Replace 'KEY_CLIENT' with your Client Access Token retrieved from the [wit.ai](https://wit.ai) website.
 
 ### Methods
 ```javascript
@@ -53,7 +53,7 @@ const fs = require('fs');
 
 // Initialize module, see constructor section for more information.
 const WitSpeech = require('witspeech');
-const witSpeech = new WitSpeech('WIT_TOKEN', '20171207');
+const witSpeech = new WitSpeech('KEY_CLIENT', '20171207');
 
 // Create request, see methods section for more information.
 let request = witSpeech.request('audio/wav', {}, function(error, response) {
@@ -75,7 +75,7 @@ stream.pipe(request);
 ```javascript
 // Initialize module, see constructor section for more information.
 const WitSpeech = require('witspeech');
-const witSpeech = new WitSpeech('WIT_TOKEN', '20171207');
+const witSpeech = new WitSpeech('KEY_CLIENT', '20171207');
 
 // Import audio recorder
 const AudioRecorder = require('node-audiorecorder');
