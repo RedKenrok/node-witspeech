@@ -100,4 +100,4 @@ stream.pipe(request);
 
 > For the audio recorder see the [package](https://npmjs.org/package/node-audiorecorder) or [repository](https://github.com/RedKenrok/Node-AudioRecorder) for it.
 
-> For another example see the [Electron-VoiceInterfacePrototype](https://github.com/RedKenrok/Electron-VoiceInterfacePrototype)'s input.js.
+> For another example see the [Electron-VoiceInterfaceBoilerplate](https://github.com/RedKenrok/Electron-VoiceInterfaceBoilerplate)'s input.js.
